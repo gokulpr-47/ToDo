@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+.container{
+    padding-top:60px;
+    height: 100vh;
+}
+
+.contents{
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* input css */
+.input-todo{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-color: rgb(245 245 245);
+    margin: 10px;
+    padding: 10px;
+}
+
+.add-todo{
+    width: 31px;
+    height: 31px;
+}
+
+/* list css */
+.list-container{
+    display: flex;
+    justify-content: center;
+}
+.ind-list{
+    display: flex;
+    background: rgb(245 245 245);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.ind-list>p{
+    padding-right: 10px;
+}
+.list-info{
+    margin-top: 30px;
+}
